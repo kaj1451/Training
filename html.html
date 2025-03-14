@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Web Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to My Page</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#hobbies">Hobbies</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="about" class="container">
+      <img src="pic.jpg" alt="Profile Picture" class="profile-pic" />
+      <h2>About Me</h2>
+      <br />
+      <p>Hi My name is kajendran currently working in CDW Technology.</p>
+    </section>
+    <section id="hobbies" class="container">
+      <h2>My Hobbies</h2>
+      <br />
+      <ul>
+        <li>Cooking</li>
+        <li>Reading</li>
+        <li>Traveling</li>
+      </ul>
+    </section>
+
+    <section id="work" class="container">
+      <h2>My Work</h2>
+      <div class="work-gallery">
+        <img src="download.jpg" alt="Work Sample" />
+        <img src="download.jpg" alt="Work Sample" />
+        <img src="download.jpg" alt="Work Sample" />
+        <img src="download.jpg" alt="Work Sample" />
+        <img src="download.jpg" alt="Work Sample" />
+        <img src="download.jpg" alt="Work Sample" />
+      </div>
+    </section>
+
+    <section id="contact" class="container">
+      <h2>Contact Me</h2>
+      <br />
+      <p>
+        Email:
+        <a href="mailto:kajendran426@gmail.com">kajendran426@gmail.com</a>
+      </p>
+      <br />
+      <h3>Send Me a Message</h3>
+    </section>
+
+    <section id="forms" class="forms">
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="location">Location:</label>
+        <select id="location" name="location">
+          <option>Select your location</option>
+          <option>Chennai</option>
+          <option>Bengaluru</option>
+          <option>Hyderabad</option>
+        </select>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Name. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
