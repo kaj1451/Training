@@ -30,14 +30,6 @@ function timeout() {
         document.getElementById("message").innerText = "after 3 seconds";
     }, 3000);
 }
-function showMessage() {
-    document.getElementById("message").innerText = "Wait for 3 seconds...";
-    
-    setTimeout(function() {
-        document.getElementById("message").innerText = "Naa dhan da leo";
-    }, 3000);
-}
-
 function showAlert() {
     alert("This is an alert");
 }
